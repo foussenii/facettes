@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+      font-family: 'Kaushan Script', cursive;
+      font-size: 18px;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    align-items: center;
+    vertical-align: middle;
+    // set animation
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+  }
+
+  header.sticky {
+    position: fixed;
+    font-size: 24px;
+    line-height: 58px;
+    height: 58px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    text-align: left;
+    padding-left: 20px;
+  }
+
+
+@media screen and (max-width: 480px) {
+    header {
+        flex-direction: column;
+        height: 100px;
+        position: relative;
+        padding-bottom:-50px;
+    }
+    .purchasebutton {
+        margin-top: 45px;
+    }
+
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 50px;
+    width: 20%;
+    padding-left: 15px;
+    font-family: 'Fredericka the Great', cursive;
+    /*font-family: 'Kaushan Script', cursive;*/
+}
+
+.menu h3 {
+    font-weight: 200;
+    margin-left: 20px;
+}
+
+.menu {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.purchasebutton {
+    display: flex;
+    width: 20%;
+    margin-left: 10%;
+    justify-content: space-around;
+
+}
+
+.purchase {
+    width: 120px;
+    height: 50px;
+    border-style: none;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: #FF3679;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 2px;
+      font-family: 'Kaushan Script', cursive;
+}
+
+.container {
+    width: 100%;
+    height: 90vh;
+    padding-top: 80px;
+}
+
+#video_background {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    overflow: hidden;
+}
+
+.home {
+    background: linear-gradient(to left, rgba(22, 0, 221, 0.5), rgba(210, 44, 191, 0.5));
+    background-size: cover;
+    color: white;
+}
+
+.home h1 {
+    font-size: 90px;
+    font-weight: lighter;
+    line-height: 80px;
+}
+
+.text-content-home {
+    margin-top: 100px;
+    margin-left: 80px;
+    width: 70%;
+}
+
+@media screen and (max-width: 480px) {
+    .text-content-home {
+        width: auto;
+        margin-top: -10px;
+        margin-left: 10px;
+        text-align: center;
+
+    }
+    .container{
+      height: 100%;
+
+
+    }
+    .home{
+
+      height: auto;
+    }
+
+    .video-link-home {
+        margin: 40px;
+        padding-right: 20px;
+        display: inline;
+        height: 40px;
+
+    }
+}
+
+.text-content-home h1 {
+  padding-left: 4em;
+  /*margin-top:10em;*/
+  font-size: 100px;
+  font-family: 'Fredericka the Great', cursive;
+
+
+}
+.text-content-home h2{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+padding-left: 9em;
+  margin-top:5em;
+  font-size: 22px;
+  font-family: 'Kaushan Script', cursive;
+  font-family: 'Courgette', cursive;
+
+}
+
+.video-link-home {
+    display: flex;
+    width: auto;
+    font-size: 40px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.video-link-home h4 {
+    font-weight: lighter;
+    margin-left: 40px;
+}
+
+
+.playButton {
+    height: 40px;
+    width: auto;
+}
+
+
+
+
+.text2 h4 {
+color:black;
+    font-weight: 200;c
+}
+
+  @media screen and (max-width: 480px) {
+    .secondary-text {
+        width: auto;
+        margin:0px;
+        margin-top: 140px;
+        margin-righ: 20px;
+        text-align: center;
+        background-size: cover;
+    }
+}
+.yellow {
+    color: yellow;
+}
+
+
+
+
+.secondary-text img{
+  background: url("img/img1.jpg") no repeat center fixed ;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+}
+.photo {
+  background: url("img/img3.jpg") no repeat center fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+
+}
+.framework{
+  background-color:#FFF0F5;
+}
+.framework-four-text {
+    display: flex;
+    margin-top: 100px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.text-framework {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.text-block-framwork {
+    width: 20%;
+    margin-bottom: 30px;
+}
+
+.text-block-framwork h3 {
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.text-block-framwork h2 {
+    font-size: 20px;
+}
+.sociaux  {
+  height: 50px;
+  background-color: #F0FFF3;
+}
+.fin h2 {
+  height: 60px;
+  background-color:#40E0D0;
+  text-align: center;
+  color: black;
+  font-family:arial;
+font-size: 35px;
+font-family: 'Fredericka the Great', cursive;
+}
+a{
+  width: 50px;
+  height: 50px;
+}
+.pere {
+  display:flex;
+justify-content: center;
+
+}
+
+
+    .twit{
+      height: 33px;
+      width: 33px;
+    }
+    .facebook{
+      height: 33px;
+      width: 33px;
+    }
+    .instagram{
+      height: 30px;
+      width: 30px;
+    }
+    .youtube {
+      height: 28px;
+      width: 28px;
+    }
+    .mail{
+      height: 28px;
+      width: 28px;
+      left: 100px;
+
+    }
